@@ -1,5 +1,11 @@
+import random
+
+possible_words = ["great", "swift", "slime", "break", "quake"]
+
+
 # variable to store word user guesses
-word = "great"
+word = random.choice(possible_words)
+print(word)
 
 # colors for printing
 default = '\033[0m'
